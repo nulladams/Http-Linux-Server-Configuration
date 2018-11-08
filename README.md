@@ -284,8 +284,8 @@ $sudo python3 loadCategories.py
 ```
 
 # IP address and URL to access the web application
-IP: 18.233.208.144
-URL: 18.233.208.144.xip.io
+- IP: 18.233.208.144
+- URL: 18.233.208.144.xip.io
 
 # Bibliography
 - [mod_wsgi (Apache)](http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/#mod-wsgi-apache)
