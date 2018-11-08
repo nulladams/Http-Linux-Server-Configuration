@@ -283,9 +283,11 @@ Last thing is to run the loadCategories.py file to insert categories into the da
 $sudo python3 loadCategories.py
 ```
 
-# IP address and URL to access the web application
+# Project information
 - IP: 18.233.208.144
 - URL: 18.233.208.144.xip.io
+- SSH port: 2200
+- SSH key: ~/.ssh/authorized_keys
 
 # Bibliography
 - [mod_wsgi (Apache)](http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/#mod-wsgi-apache)
