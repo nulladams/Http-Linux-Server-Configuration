@@ -124,13 +124,15 @@ $sudo ufw allow ntp
 ```sh
 $sudo ufw enable
 ```
-9. Change configuration for ssh access through 2200 port
+9. Change configuration for ssh access through 2200 port and deny root login
 ```sh
 $sudo nano /etc/ssh/sshd_config
 ```
 ```
 # Port 22
 Port 2200
+
+PermitRootLogin no
 ```
 ```sh
 $sudo service ssh restart
